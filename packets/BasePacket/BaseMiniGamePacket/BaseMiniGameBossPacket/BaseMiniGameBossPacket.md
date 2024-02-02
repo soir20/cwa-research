@@ -1,0 +1,3 @@
+## MiniGameBossDeletePacket
+
+## MiniGameBossUpdatePacket

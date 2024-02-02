@@ -1,0 +1,5 @@
+## FirstTimeEventEnablePacket
+
+## FirstTimeEventScriptPacket
+
+## FirstTimeEventStatePacket

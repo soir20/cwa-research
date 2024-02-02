@@ -1,0 +1,5 @@
+## ActivityPacketJoinActivityRequest
+
+## ActivityPacketListOfActivities
+
+## ActivityPacketUpdateActivityFeaturedStatus

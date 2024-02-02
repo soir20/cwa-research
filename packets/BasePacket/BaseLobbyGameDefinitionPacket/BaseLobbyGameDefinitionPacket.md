@@ -1,0 +1,3 @@
+## LobbyGameDefinitionPacketDefinitionsRequest
+
+## LobbyGameDefinitionPacketDefinitionsResponse

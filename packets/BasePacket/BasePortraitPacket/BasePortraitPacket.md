@@ -1,0 +1,5 @@
+## PacketClientGeneratePortraitRequest
+
+## PacketPlayerImageData
+
+## PacketPortraitDataRequest

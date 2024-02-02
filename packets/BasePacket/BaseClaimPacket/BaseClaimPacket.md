@@ -1,0 +1,7 @@
+## ClaimItemsRequestPacket
+
+## ClaimItemsResponsePacket
+
+## GetAllAvailableClaimItemsRequestPacket
+
+## GetAllAvailableClaimItemsResponsePacket
