@@ -1,47 +1,67 @@
-## BoostAdditionalSabersPacket
-
-## BoostDemagnetizedWallsPacket
-
-## BoostForcePerceptionPacket
-
-## BoostReducedTargetPacket
-
-## GameOverPacket
-
-## KillPacket
 ## MiniGameBoostActivatedPacket
+
+## MiniGameBoostActivatedPacket
+
+## MiniGameCreateGameResultPacket
 
 ## MiniGameCreateGameResultPacket
 
 ## MiniGameDataLockedPacket
 
+## MiniGameDataLockedPacket
+
 ## MiniGameDataPacket
+
+## MiniGameDataPacket
+
+## MiniGameDataUnlockedPacket
 
 ## MiniGameDataUnlockedPacket
 
 ## MiniGameGameEndScorePacket
 
+## MiniGameGameEndScorePacket
+
 ## MiniGameGameOverPacket
+
+## MiniGameGameOverPacket
+
+## MiniGameGroupInfoPacket
 
 ## MiniGameGroupInfoPacket
 
 ## MiniGameInfoPacket
 
+## MiniGameInfoPacket
+
 ## MiniGameKnockOutPacket
+
+## MiniGameKnockOutPacket
+
+## MiniGameLootWheelOnRotationStoppedPacket
 
 ## MiniGameLootWheelOnRotationStoppedPacket
 
 ## MiniGameMessagePacket
 
+## MiniGameMessagePacket
+
+## MiniGamePayloadPacket
+
 ## MiniGamePayloadPacket
 
 ## MiniGameRewardStatusPacket
 
+## MiniGameRewardStatusPacket
+
 ## MiniGameStarsEarnedPacket
-## ObfuscatedScorePacket
+
+## MiniGameStarsEarnedPacket
 
 ## RequestTCGChallengePacket
 
-## ThrowKillPacket
+## RequestTCGChallengePacket
+
+## TradingCardStartGamePacket
 
 ## TradingCardStartGamePacket
