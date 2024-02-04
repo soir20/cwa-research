@@ -1,3 +1,7 @@
+| Offset | Size | Name | Confidence | Verification | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 0 | 4 | op code 1 | H | D | Distinguishes subclasses of `BasePacket` from other packet types. |
+
 ## BaseBroadcastPacket
 
 ## OneTimeSessionRequestPacket
