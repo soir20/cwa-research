@@ -12,9 +12,20 @@
 | Offset | Size | Name | Confidence | Verification | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 20 | 4 | op code 3 | H | D | `2` (`0x2`). |
-| 24 | ? | tower types | L | D | `SoeUtil::Array<DeckSlot, 0, 1>` type. |
+| 24 | 4 |  | L | D | Seemingly always `0`. |
+| 28 | ? | tower types | L | D | `SoeUtil::Array<DeckSlot, 0, 1>` type. |
 ## InWorldTowerDefenseGameStatePacket
 
+| Offset | Size | Name | Confidence | Verification | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 20 | 4 | op code 3 | H | D | `4` (`0x4`). |
+| 24 | 4 |  | L | D | Seemingly always `0`. |
+| 28 | 4 |  | L | D | Initialized to `0`. Updated in `FUN_00a8bff0`. |
+| 32 | 4 |  | L | D | Initialized to `0`. Updated in `FUN_00a8bff0`. |
+| 36 | 4 |  | L | D | Initialized to `0`. Updated in `FUN_00a8bff0`. |
+| 40 | 4 |  | L | D | Initialized to `0`. Updated in `FUN_00a8bff0`. |
+| 44 | 4 |  | L | D | Initialized to `0`. Updated in `FUN_00a8bff0`. |
+| 48 | 4 |  | L | D | Initialized to `0`. Updated in `FUN_00a8bff0`. |
 ## InWorldTowerDefenseInventoryPacket
 
 ## InWorldTowerDefenseNotifyPacket
