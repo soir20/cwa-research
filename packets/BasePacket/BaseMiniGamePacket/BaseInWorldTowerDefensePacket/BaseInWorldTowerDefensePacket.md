@@ -13,7 +13,7 @@
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 20 | 4 | op code 3 | H | D | `2` (`0x2`). |
 | 24 | 4 |  | L | D | Seemingly always `0`. |
-| 28 | ? | tower types | L | D | `SoeUtil::Array<DeckSlot, 0, 1>` type. |
+| 28 | ? | power-ups | L | D | `SoeUtil::Array<DeckSlot, 0, 1>` type.  |
 ## InWorldTowerDefenseGameStatePacket
 
 | Offset | Size | Name | Confidence | Verification | Notes |
@@ -28,6 +28,12 @@
 | 48 | 4 |  | L | D | Initialized to `0`. Updated in `FUN_00a8bff0`. |
 ## InWorldTowerDefenseInventoryPacket
 
+| Offset | Size | Name | Confidence | Verification | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 20 | 4 | op code 3 | H | D | `1` (`0x1`). |
+| 24 | 4 |  | L | D | Seemingly always `0`. |
+| 28 | 45 | towers | L | D | `HashList<InWorldTowerDefenseTower, 64, -1>` type. |
+| 61 | 36 | special power-ups | L | D | `HashList<InWorldTowerDefenseSpecial, 4, -1>` type. |
 ## InWorldTowerDefenseNotifyPacket
 
 ## InWorldTowerDefenseOptionPacket
