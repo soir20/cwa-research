@@ -38,9 +38,9 @@ Superclass of `Target`. Constructor is inlined in `Target` constructor at `00a85
 | 20 | 4 | op code 3 | H | D | `6` (`0x6`). |
 | 24 | 4 |  | L | D | Seemingly always `0`. |
 | 28 | 4 |  | L | D | Initialized to `0`. |
-| 32 | 4 |  | L | D | Initialized to `vftable`. |
-| 36 | 4 |  | L | D | Initialized to `0`. |
-| 40 | 4 |  | L | D | Initialized to `0`. |
+| 32 | 4 |  | L | D | Initialized to `vftable`. (Likely unused/not part of packet data.) |
+| 36 | 4 |  | L | D | Initialized to `0`. (Likely unused/not part of packet data.) |
+| 40 | 4 |  | L | D | Initialized to `0`. (Likely unused/not part of packet data.) |
 ## InWorldTowerDefenseOptionPacket
 | Offset | Size | Name | Confidence | Verification | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -58,11 +58,11 @@ Constructor is inlined at `00a89546`.
 | 36 | 8 |  | L | D | Same value as the previous field. |
 | 44 | 8 |  | L | D | Same value as the previous field. |
 | 52 | 4 |  | L | D | Initialized to 0. |
-| 56 | 4 |  | L | D | Initialized to `vftable`. |
-| 60 | 4 |  | L | D | Initialized to value at `01c67a0c`. |
-| 64 | 4 |  | L | D | Initialized to 0. |
-| 68 | 4 |  | L | D | Initialized to 0. |
-| 72 | 4 |  | L | D | Initialized to 0. |
+| 56 | 4 |  | L | D | Initialized to `vftable`. (Likely unused/not part of packet data.) |
+| 60 | 4 |  | L | D | Initialized to value at `01c67a0c`. (Likely unused/not part of packet data.) |
+| 64 | 4 |  | L | D | Initialized to 0. (Likely unused/not part of packet data.) |
+| 68 | 4 |  | L | D | Initialized to 0. (Likely unused/not part of packet data.) |
+| 72 | 4 |  | L | D | Initialized to 0. (Likely unused/not part of packet data.) |
 ## InWorldTowerDefenseUpdateDeckPacket
 | Offset | Size | Name | Confidence | Verification | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
