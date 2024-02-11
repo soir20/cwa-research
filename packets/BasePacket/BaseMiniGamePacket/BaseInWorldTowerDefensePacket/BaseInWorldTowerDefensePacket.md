@@ -35,7 +35,16 @@
 | 28 | 45 | towers | L | D | `HashList<InWorldTowerDefenseTower, 64, -1>` type. |
 | 61 | 36 | special power-ups | L | D | `HashList<InWorldTowerDefenseSpecial, 4, -1>` type. |
 ## InWorldTowerDefenseNotifyPacket
+Superclass of `Target`. Constructor is inlined in `Target` constructor at `00a85f86`.
 
+| Offset | Size | Name | Confidence | Verification | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 20 | 4 | op code 3 | H | D | `6` (`0x6`). |
+| 24 | 4 |  | L | D | Seemingly always `0`. |
+| 28 | 4 |  | L | D | Initialized to `0`. |
+| 32 | 4 |  | L | D | Initialized to `vftable`. |
+| 36 | 4 |  | L | D | Initialized to `0`. |
+| 40 | 4 |  | L | D | Initialized to `0`. |
 ## InWorldTowerDefenseOptionPacket
 
 ## InWorldTowerDefensePacketTowerTransaction
