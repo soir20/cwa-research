@@ -1,6 +1,6 @@
 | Offset | Size | Name | Confidence | Verification | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 4 | 4 | op code 2 | H | D | `54` (`0x36`). Distinguishes subclasses/children of `BaseInWorldTowerDefensePacket` from other children. |
+| 4 | 4 | op code 2 | H | D | `54` (`0x36`). |
 | 8 | 4 | match ID | L | D | Used. |
 | 12 | 4 |  | H | D | Unused. Always `-1` (`0xffffffff`). |
 | 16 | 4 |  | H | D | Unused. Always `-1` (`0xffffffff`). |
